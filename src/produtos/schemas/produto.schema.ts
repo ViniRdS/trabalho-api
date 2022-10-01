@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 
-export const TaskSchema = new mongoose.Schema({
+export const ProdutoSchema = new mongoose.Schema({
     nomeProduto:String,
     descricaoProduto:String,
     precoUnitario:Number,
